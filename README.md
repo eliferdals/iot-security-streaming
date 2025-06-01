@@ -8,6 +8,7 @@ This project simulates and analyzes real-time cybersecurity threats on IoT devic
 - **Objective**: To simulate cyber-attacks and process threat data in real-time.
 - **Stack**: Python, Kafka, Docker, Ubuntu
 - **Target**: IoT devices with limited resources
+- - **Deployment**: Entirely built and deployed on Google Cloud Platform (GCP)
 
 ## 🧱 Architecture
 
@@ -22,6 +23,13 @@ Producer (Python) --> Kafka Topic --> Consumer (Python)
 - `consume.py`: Listens to the Kafka topic and logs incoming data.
 - `streaming.py`: (Optional) Real-time stream processing & analytics.
 - `docker-compose-kafka.yml`: Spins up Kafka and Zookeeper in Docker containers.
+
+  ## ☁️ Deployment Environment
+
+This project was fully deployed and tested on Google Cloud Platform (GCP) using:
+- Compute Engine (VM instance)
+- Docker for containerized Kafka and Zookeeper
+- SSH tunneling and remote execution for producer/consumer scripts
 
 ## ⚙️ How to Run
 
@@ -47,7 +55,16 @@ python consume.py
 
 - Docker & Docker Compose
 - Python 3.8+
-- `pip install -r requirements.txt`
+- kafka-python==2.0.2
+
+## 🧰 Tech Stack & Cloud Services
+
+- Python 3.8
+- Apache Kafka + Zookeeper
+- Docker & Docker Compose
+- Google Cloud Platform (GCP)
+  - Compute Engine
+  - Cloud Logging (Optional)
 
 ## 💡 Future Enhancements
 
@@ -55,9 +72,9 @@ python consume.py
 - Add real-time dashboard with Grafana
 - Introduce machine learning for threat classification
 
-## 📜 License
+## 📜 
 
-This project is open-source under the MIT License.
+This project is open-source under the Istanbul Data Science Academy.
 
 ---
 
