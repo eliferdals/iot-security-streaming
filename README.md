@@ -10,7 +10,7 @@ This project simulates and analyzes real-time cybersecurity threats on IoT devic
 - **Target**: IoT devices with limited resources
 - - **Deployment**: Entirely built and deployed on Google Cloud Platform (GCP)
 
-## 🧱 Architecture
+##  Architecture
 
 ```
 Producer (Python) --> Kafka Topic --> Consumer (Python)
@@ -31,7 +31,7 @@ This project was fully deployed and tested on Google Cloud Platform (GCP) using:
 - Docker for containerized Kafka and Zookeeper
 - SSH tunneling and remote execution for producer/consumer scripts
 
-## ⚙️ How to Run
+##  How to Run
 
 1. **Start Kafka & Zookeeper**
 
