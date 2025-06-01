@@ -3,7 +3,7 @@
 
 This project simulates and analyzes real-time cybersecurity threats on IoT devices, focusing on DDoS and SSH brute-force attacks. It leverages Apache Kafka for real-time data streaming and Docker for containerized deployment.
 
-## 🚀 Project Overview
+##  Project Overview
 
 - **Objective**: To simulate cyber-attacks and process threat data in real-time.
 - **Stack**: Python, Kafka, Docker, Ubuntu
@@ -51,13 +51,13 @@ python producer.py
 python consume.py
 ```
 
-## 📦 Requirements
+##  Requirements
 
 - Docker & Docker Compose
 - Python 3.8+
 - kafka-python==2.0.2
 
-## 🧰 Tech Stack & Cloud Services
+##  Tech Stack & Cloud Services
 
 - Python 3.8
 - Apache Kafka + Zookeeper
@@ -66,16 +66,16 @@ python consume.py
   - Compute Engine
   - Cloud Logging (Optional)
 
-## 💡 Future Enhancements
+##  Future Enhancements
 
 - Integrate with Prefect or Airflow for scheduling
 - Add real-time dashboard with Grafana
 - Introduce machine learning for threat classification
 
-## 📜 
+## 💙
 
 This project is open-source under the Istanbul Data Science Academy.
 
 ---
 
-Made with ❤️ by Elif Erdal
+Made by 🤍 Elif Erdal 💅
